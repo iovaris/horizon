@@ -582,11 +582,9 @@ void CanvasGL::set_highlight_enabled(bool v)
     queue_draw();
 }
 
-void CanvasGL::set_highlight_on_top(bool v)
-{
+void CanvasGL::set_highlight_on_top(bool v) {
     highlight_on_top = v;
-    queue_draw();
-}
+    queue_draw(); }
 
 void CanvasGL::set_appearance(const Appearance &a)
 {
